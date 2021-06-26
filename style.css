@@ -1,0 +1,395 @@
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+            
+            body {
+                /*   font: 400 1rem 'DM Sans', sans-serif;*/
+                font: 200 1.500rem 'Poppins', sans-serif;
+            }
+            
+            .container {
+                width: 100%;
+                /* margin: 0 auto;*/
+                /*margin-left: 2.0rem;
+        margin-right: 2.0rem;*/
+                /* align-items: center;
+    justify-content: space-between;*/
+                background-color: rgb(43, 141, 95);
+            }
+            
+            .content {
+                /*  display: flex;
+    align-items: center;*/
+                width: 90%;
+                margin: 0 auto;
+                background-color: white;
+            }
+            
+            #menu {
+                height: 100px;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                background-color: white;
+                width: 90%;
+                margin: 0 auto;
+            }
+            
+            #menu h1 {
+                padding-left: 50px;
+            }
+            
+            #header {
+                height: 100px;
+                width: 100%;
+                margin: 0 auto;
+            }
+            
+            #itens {
+                margin-right: 50px;
+            }
+            
+            #itens li {
+                display: inline-block;
+                text-decoration: none;
+            }
+            
+            #itens li a {
+                text-decoration: none;
+                color: black;
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                font-stretch: expanded;
+            }
+            
+            #img-topo {
+                /* border: solid red 1px;*/
+                width: 50%;
+                height: 50%;
+            }
+            
+            #texto-topo {
+                margin-top: 8%;
+                margin-left: 50px;
+                font-weight: 600;
+                font-size: 51px;
+            }
+            
+            #texto-topo img {
+                margin-left: 50px;
+                font-weight: 100;
+                font-size: 51px;
+            }
+            
+            .clear {
+                clear: both;
+            }
+            
+            #venda-treinar {
+                display: flex;
+            }
+            
+            #turma-alunos img {
+                margin: 300px 0;
+                width: 20%;
+                box-shadow: 1px black;
+                /*  border: 1px solid black;*/
+            }
+            
+            #session-turma {
+                background-color: rgb(177, 255, 219);
+                display: flex;
+                justify-content: center;
+            }
+            
+            #session-turma img {
+                margin: 190px 0;
+                width: 75%;
+                box-shadow: 0.5px 0.5px 1.5px 0.5px black;
+            }
+            
+            #categorias-alunos {
+                display: flex;
+                justify-content: space-around;
+                padding-left: 20%;
+                padding-right: 20%;
+            }
+            
+            #texto-categoria {
+                display: flex;
+                justify-content: center;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            
+            #texto-categoria {
+                color: rgb(43, 141, 95);
+            }
+            
+            .cat img {
+                width: 200px;
+                height: 250px;
+                box-shadow: 0.5px 0.5px 1.5px 0.5px black;
+            }
+            
+            #texto-cadastro {
+                display: flex;
+                justify-content: center;
+                padding-top: 100px;
+            }
+            
+            #texto-cadastro h1 {
+                color: rgb(43, 141, 95);
+            }
+            
+            #session-input {
+                display: flex;
+                justify-content: center;
+            }
+            
+            #session-input input {
+                width: 35rem;
+                height: 2.5rem;
+            }
+            
+            #session-input button {
+                display: flex;
+                justify-content: center;
+                width: 100px;
+                height: 40px;
+                border: none;
+                background-color: rgb(43, 141, 95);
+                align-items: center;
+                color: white;
+                font-weight: 600;
+            }
+            
+            #call-to-action {
+                background-color: rgb(255, 255, 255);
+                padding: 120px 0;
+            }
+            
+            #entre-para-nosso-time {
+                background-color: rgb(177, 255, 219);
+                color: rgb(43, 141, 95);
+            }
+            
+            #call-time {
+                padding: 75px 0;
+                /* background-color: red; */
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                padding: 30px 0;
+            }
+            
+            #call-time button {
+                display: flex;
+                justify-content: center;
+                width: 100px;
+                height: 40px;
+                border: none;
+                background-color: rgb(255, 255, 255);
+                align-items: center;
+                color: rgb(43, 141, 95);
+                font-weight: 600;
+            }
+            
+            #footer {
+                background-color: white;
+                display: flex;
+                justify-content: center;
+                padding: 100px 0 0 0;
+            }
+            
+            #direita {
+                /* background-color: blue; */
+                width: 33%;
+                text-align: center;
+            }
+            
+            #esquerda {
+                /* background-color: pink; */
+                display: flex;
+                margin-left: 10px;
+                width: 33%;
+                text-align: center;
+                align-items: center;
+            }
+            
+            #centro {
+                /* background-color: purple; */
+                width: 33%;
+                text-align: center;
+            }
+            
+            #item-center {
+                list-style: none;
+            }
+            
+            #item-center li {
+                list-style: none;
+            }
+            
+            #item-center li a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            #item-footer {
+                list-style: none;
+            }
+            
+            #item-footer li {
+                list-style: none;
+            }
+            
+            #item-footer li a {
+                text-decoration: none;
+                color: black;
+            }
+            
+            #copy {
+                text-align: center;
+                border-top: 1px solid rgb(43, 141, 95);
+            }
+            /* pagina de contatos */
+            
+            .w60 {
+                width: 60%;
+                float: left;
+            }
+            
+            .w40 {
+                width: 40%;
+                float: left;
+            }
+            
+            .w50 {
+                width: 50%;
+                float: left;
+            }
+            
+            .w33 {
+                float: left;
+                width: 33.3%;
+            }
+            
+            section.contato {
+                min-height: 399px;
+                /* padding: 30px 0; */
+            }
+            
+            section.contato .w50,
+            section.contato .w100 {
+                padding: 0 10px;
+            }
+            
+            .formulario form {
+                margin-top: 10px;
+            }
+            
+            .formulario h2 {
+                background: #DDDDDD;
+                text-align: center;
+                color: #ACAC9D;
+                font-size: 17px;
+                font-weight: normal;
+                border-left: 5px solid #CCCCCC;
+                padding: 4px 0;
+            }
+            
+            .formulario input[type=text],
+            .formulario input[type=email] {
+                width: 100%;
+                height: 40px;
+                border: 1px solid #ccc;
+                margin-bottom: 15px;
+                padding-left: 8px;
+            }
+            
+            .formulario textarea {
+                width: 100%;
+                height: 120px;
+                border: 1px solid #ccc;
+                margin-bottom: 15px;
+                padding: 10px;
+                resize: vertical;
+            }
+            
+            .tags-form {
+                padding-left: 50px;
+            }
+            
+            .tags-form h2 {
+                font-weight: normal;
+            }
+            
+            .tags-form p {
+                font-weight: lighter;
+            }
+            
+            .tags-form p.tag-contato {
+                color: white;
+                background: #249B8F;
+                text-align: center;
+                margin-top: 6px;
+                padding: 8px 4px;
+            }
+            
+            #botao {
+                width: 200px;
+                height: 40px;
+                font-weight: bold;
+            }
+            
+            .w40,
+            .w100 {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+            
+            #formulario {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                min-height: 561px;
+            }
+            
+            .mapa {
+                border: 2px solid #cccccc;
+                width: 500px;
+                height: 350px;
+                frameborder: 0;
+                allowfullscreen: true;
+                padding-left: 20px;
+            }
+            
+            .contato {
+                padding: 0 0;
+            }
+            
+            #cat-div {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .cat-jog {
+                width: 300px;
+                left: 100px;
+                background-color: white;
+                box-shadow: 0.5px 0.5px 1.5px 0.5px black;
+                text-align: center;
+                margin-left: 0 5px;
+            }
+            
+            .cat-jog a {
+                text-decoration: none;
+                color: rgb(43, 141, 95);
+            }
+            
+            .bola {
+                width: 80%;
+                height: 60%;
+            }
